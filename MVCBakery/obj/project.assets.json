@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/ToDoList.csproj",
-      "projectName": "ToDoList",
-      "projectPath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/ToDoList.csproj",
+      "projectUniqueName": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/MVCBakery.csproj",
+      "projectName": "MVCBakery",
+      "projectPath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/MVCBakery.csproj",
       "packagesPath": "/home/aaron/.nuget/packages/",
       "outputPath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/",
       "projectStyle": "PackageReference",

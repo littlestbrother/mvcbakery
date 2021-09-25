@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wNU9MvbmZIfw6DCsvnixQEu5PrTn4W/Qn63/MPOHp/WpCHN3FrRiByW4pDwXClMfQzZnGqAKAnD5pITwqeGKPg==",
+  "dgSpecHash": "8e1Yr8if4RlpKDiqblRI4SBW3jZXnBkzsKnet4AzxLo+dANXYtGlxzXYbAhtqo7kiL7DyaYDIiODLIPdatc84g==",
   "success": true,
-  "projectFilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/ToDoList.csproj",
+  "projectFilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/MVCBakery.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

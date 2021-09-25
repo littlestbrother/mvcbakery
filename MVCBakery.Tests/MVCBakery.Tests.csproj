@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MVCBakery\<MVCBakery>.csproj" />  
+    <ProjectReference Include="../MVCBakery/MVCBakery.csproj" />  
   </ItemGroup>
 
 </Project>

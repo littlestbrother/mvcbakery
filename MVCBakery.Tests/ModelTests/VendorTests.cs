@@ -17,7 +17,7 @@ namespace MVCBakery.Tests { [TestClass]
 		}
 
 		[TestMethod]
-		public void GetName_ReturnsName_String() {
+		public void GetProperty_ReturnsProperty_String() {
 			string name = "Test the Vendor";
 			Vendor newVendor = new Vendor(name, "no joke his actual name is Test");
 			string result = newVendor.Name;

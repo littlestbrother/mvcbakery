@@ -23,11 +23,13 @@ namespace MVCBakery {
 			app.UseDeveloperExceptionPage();
 			app.UseRouting();
 
-			app.UseEndpoints(routes = >{
+			app.UseEndpoints(routes =>
+			{
 				routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 			});
 
-			app.Run(async(context) = >{
+			app.Run(async(context) =>
+			{
 				await context.Response.WriteAsync("404 Not Found!");
 			});
 		}

@@ -17,7 +17,7 @@ namespace MVCBakery.Tests { [TestClass]
 		}
 
 		[TestMethod]
-		public void GetTitle_ReturnsTitle_String() {
+		public void GetTitle_ReturnsProperty_String() {
 			string title = "Smith Order";
 			Order newOrder = new Order(title, "bread", 5, "9/24/2021", "Delivery");
 			string result = newOrder.Title;
@@ -25,7 +25,7 @@ namespace MVCBakery.Tests { [TestClass]
 		}
 
 		[TestMethod]
-		public void SetTitle_SetTitle_String() {
+		public void SetProperty_ResetPropery_String() {
 			string title = "Smith Order";
 			Order newOrder = new Order(title, "bread", 5, "9/24/2021", "Delivery");
 			string updatedTitle = "Tennant Order";

@@ -24,7 +24,7 @@ git clone https://github.com/littlestbrother/mvcbakery.git
 - *navigate to the root of the downloaded repository and run:*
 
 ```bash
-dotnet test MVCBakery.Tests && run --project MVCBakery
+dotnet test MVCBakery.Tests && dotnet run --project MVCBakery
 ```
 
 ## **Known Bugs**

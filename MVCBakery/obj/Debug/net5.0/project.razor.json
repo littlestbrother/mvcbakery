@@ -15622,6 +15622,46 @@
       "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Orders/Show.cshtml",
+      "TargetPath": "Views\\Orders\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Vendors/Index.cshtml",
+      "TargetPath": "Views\\Vendors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Vendors/Show.cshtml",
+      "TargetPath": "Views\\Vendors\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Orders/Index.cshtml",
+      "TargetPath": "Views\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Orders/New.cshtml",
+      "TargetPath": "Views\\Orders\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Orders/DeleteAll.cshtml",
+      "TargetPath": "Views\\Orders\\DeleteAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/Views/Vendors/New.cshtml",
+      "TargetPath": "Views\\Vendors\\New.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

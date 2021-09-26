@@ -25,7 +25,7 @@ namespace MVCBakery.Models {
 		}
 
 		public static Order Find(int searchId) {
-			return _instances[searchId - 1];
+			return _instances[searchId];
 		}
 
 		public static void ClearAll() {

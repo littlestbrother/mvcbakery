@@ -1,15 +1,14 @@
 @{
   Layout = "_Layout";
 }
-<h1>Add a vendor</h1>
+<h1>Setup Vendor</h1>
 
 <form action="/vendors" method="post">
   <label for="vendorName">Vendor Name</label>
-  <input id="vendorName" name="vendorName" type="text">
+  <input id="vendorName" name="vendorName" type="text" class="form-control">
+  <br>
     <label for="vendorName">Vendor Description</label>
-  <input id="vendorName" name="vendorDescription" type="text">
-  <button type="submit">Add</button>
+  <input id="vendorName" name="vendorDescription" type="text" class="form-control">
+  <br>
+  <button type="submit" class="btn btn-primary">Add</button>
 </form>
-
-<p><a href="/">Home</a></p>
-<p><a href="/vendors">Back to Vendor list</a></p>

@@ -23,6 +23,7 @@ namespace MVCBakery.Controllers {
 			return RedirectToAction("Index");
 		}
 
+
 		[HttpGet("/vendors/{id}")]
 		public ActionResult Show(int id) {
 			Dictionary < string, object > model = new Dictionary < string, object > ();
@@ -33,17 +34,17 @@ namespace MVCBakery.Controllers {
 			return View(model);
 		}
 
-		[HttpPost("/Vendors/{VendorId}/Orders")]
-		public ActionResult Create(int VendorId, string OrderTitle, string OrderDescription, int OrderPrice, string Date, string Type) {
-			Dictionary < string, object > model = new Dictionary < string, object > ();
-			Vendor foundVendor = Vendor.Find(VendorId);
-			Order newOrder = new Order(OrderTitle, OrderDescription, OrderPrice, Date, Type);
-			foundVendor.AddOrder(newOrder);
-			List < Order > VendorOrders = foundVendor.Orders;
-			model.Add("Orders", VendorOrders);
-			model.Add("Vendor", foundVendor);
-			return View("Show", model);
-		}
-
-	}
+        [HttpPost("/vendors/{vendorId}/orders/")]
+        public ActionResult Create(string OrderDescription, string OrderTitle, int OrderPrice, string Date, string Type, int VendorId)
+        {
+            Dictionary<string, object> model = new Dictionary<string, object>();
+            Vendor foundVendor = Vendor.Find(VendorId);
+            Order newOrder = new Order(OrderDescription, OrderTitle, OrderPrice, Date, Type);
+            foundVendor.AddOrder(newOrder);
+            List<Order> VendorOrders = foundVendor.Orders;
+            model.Add("Orders", VendorOrders);
+            model.Add("Vendor", foundVendor);
+            return View("Show", model);
+        }
+    }
 }

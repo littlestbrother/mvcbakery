@@ -16,18 +16,9 @@ namespace MVCBakery.Controllers {
 			Order Order = Order.Find(OrderId);
 			Vendor Vendor = Vendor.Find(VendorId);
 			Dictionary < string,object > model = new Dictionary < string, object > ();
-			model.Add("Order", Order);
-			model.Add("Vendor", Vendor);
+			model.Add("Orders", Order);
+			model.Add("Vendors", Vendor);
 			return View(model);
 		}
-
-
-
-		// [HttpPost("/orders/delete")]
-		// public ActionResult DeleteAll() {
-		// 	Order.ClearAll();
-		// 	return View();
-		// }
-
 	}
 }

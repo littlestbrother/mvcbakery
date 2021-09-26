@@ -29,21 +29,21 @@ namespace MVCBakery.Controllers {
 			Dictionary < string, object > model = new Dictionary < string, object > ();
 			Vendor selectedVendor = Vendor.Find(id);
 			List < Order > VendorOrders = selectedVendor.Orders;
-			model.Add("Vendor", selectedVendor);
+			model.Add("Vendors", selectedVendor);
 			model.Add("Orders", VendorOrders);
 			return View(model);
 		}
 
         [HttpPost("/vendors/{vendorId}/orders/")]
-        public ActionResult Create(string OrderDescription, string OrderTitle, int OrderPrice, string Date, string Type, int VendorId)
+        public ActionResult Create(string orderTitle, string orderDescription, int orderPrice, string orderDate, string orderType, int vendorId)
         {
             Dictionary<string, object> model = new Dictionary<string, object>();
-            Vendor foundVendor = Vendor.Find(VendorId);
-            Order newOrder = new Order(OrderDescription, OrderTitle, OrderPrice, Date, Type);
+            Vendor foundVendor = Vendor.Find(vendorId);
+            Order newOrder = new Order(orderTitle, orderDescription, orderPrice, orderDate, orderType);
             foundVendor.AddOrder(newOrder);
             List<Order> VendorOrders = foundVendor.Orders;
             model.Add("Orders", VendorOrders);
-            model.Add("Vendor", foundVendor);
+            model.Add("Vendors", foundVendor);
             return View("Show", model);
         }
     }

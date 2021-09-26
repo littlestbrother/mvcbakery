@@ -3,11 +3,13 @@
 }
 <h1>Order Details: </h1>
 
-<h2>Order Name: @Model["Orders"].Title</h2>
-<p>Vendor Name: @Model["Vendor"].Name</p>
-@* <p>Description: @Model["Orders"].Description</p>
+<h2>Name: @Model["Orders"].Title</h2>
+<p>Vendor Name: @Model["Vendors"].Name</p>
+<p>Description: @Model["Orders"].Description</p>
 <p>Price: $@Model["Orders"].Price</p>
 <p>Date: @Model["Orders"].Date</p>
-<p>Type: @Model["Orders"].Type</p> *@
+<p>Type: @Model["Orders"].Type</p>
 
-<a href='/vendors/@Model["Vendor"].Id/orders/new'>Add another order</a>
+<a href='/vendors/@Model["Vendors"].Id/orders/new'>Add another order</a>
+<br>
+<a href='/vendors/@Model["Vendors"].Id/'>Back to order list</a>

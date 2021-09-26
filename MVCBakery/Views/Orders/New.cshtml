@@ -3,21 +3,22 @@
 }
 <h1>Add a new order to "@Model.Name"</h1>
 <form action="/vendors/@Model.Id/orders" method="post">
-  @* <input id="categoryTitle" name="categoryTitle" type="hidden" value="@Model.Id" class="form-control"> *@
-  <label for="OrderTitle">Name</label>
-  <input id="OrderTitle" name="OrderTitle" type="text" class="form-control">
+  <input id="vendorId" name="vendorId" type="hidden" value="@Model.Id">
+  @*  *@
+  <label for="orderTitle">Name</label>
+  <input id="orderTitle" name="orderTitle" type="text" class="form-control">
   <br>
-    <label for="OrderDescription">Description</label>
-  <input id="OrderDescription" name="OrderDescription" type="text" class="form-control">
+    <label for="orderDescription">Description</label>
+  <input id="orderDescription" name="orderDescription" type="text" class="form-control">
   <br>
-    <label for="OrderPrice">Price</label>
-  <input id="OrderPrice" name="OrderPrice" type="number" class="form-control">
+    <label for="orderPrice">Price ($)</label>
+  <input id="orderPrice" name="orderPrice" type="number" class="form-control">
   <br>
-    <label for="OrderDate">Date</label>
-  <input id="OrderDate" name="OrderDate" type="date" class="form-control">
+    <label for="orderDate">Date</label>
+  <input id="orderDate" name="orderDate" type="date" class="form-control">
   <br>
-    <label for="OrderType">Type</label>
-  <input id="OrderType" name="OrderType" type="text" class="form-control">
+    <label for="orderType">Type</label>
+  <input id="orderType" name="orderType" type="text" class="form-control">
   <br>
-  <button type='submit' class="btn btn-primary">Add order</button>
+  <button type='submit' class="btn btn-primary">Add order</button>  
 </form>

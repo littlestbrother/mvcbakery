@@ -22,7 +22,6 @@
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/MVCBakery.TagHelpers.output.cache
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/MVCBakery.RazorCoreGenerate.cache
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/Razor/Views/Orders/DeleteAll.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/Razor/Views/Orders/Index.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/Razor/Views/Orders/New.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/MVCBakery/MVCBakery/obj/Debug/net5.0/Razor/Views/Orders/Show.cshtml.g.cs
